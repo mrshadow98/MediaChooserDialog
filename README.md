@@ -6,7 +6,7 @@
 
 ## Installation
 
-To include MediaFacer in your project, your project should have minSdkVersion 19 and above.
+To include Media Chooser Dialog in your project, your project should have minSdkVersion 21 and above.
 You can download a aar from GitHub's [packages](https://github.com/mrshadow98/MediaChooserDialog/packages/737435) page.
 Or use Gradle: Add it in your your projects root build.gradle file
 ```bash
