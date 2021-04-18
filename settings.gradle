@@ -1,2 +1,2 @@
 include ':MediaChooserDialog'
-rootProject.name = "MediaChooserDialog"
+rootProject.name = "MediaChooser"
