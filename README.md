@@ -41,8 +41,8 @@ This chooser uses media stores so it solves the problem of requestLegactStorage 
 - followes google's latest storage policy
 
 ## Images
-![](Images/image.jpg =250x)
-![](Images/image1.jpg =250x)
+<img src="Images/image.jpg" alt="drawing" width="200"/>
+<img src="Images/image1.jpg" alt="drawing" width="200"/>
 
 ## Usage
 1. Use below code to select video file
