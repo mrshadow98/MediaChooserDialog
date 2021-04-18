@@ -1,0 +1,3 @@
+include ':mediachooserapp'
+include ':MediaChooserDialog'
+rootProject.name = "MediaChooserDialog"
