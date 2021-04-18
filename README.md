@@ -40,6 +40,10 @@ This chooser uses media stores so it solves the problem of requestLegactStorage 
 - supports latest android 11
 - followes google's latest storage policy
 
+## Images
+![](Images/image.jpg)
+![](Images/image1.jpg)
+
 ## Usage
 1. Use below code to select video file
 ```java
