@@ -67,7 +67,17 @@ MediaChooserDialog mediaChooserDialog = new MediaChooserDialog(MainActivity.this
 });
 mediaChooserDialog.showPictureDialog();
 ```
-
+3. How to use bottom sheet dialog?
+```java
+LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+View view = inflater.inflate(R.layout.your_layout, null);
+btn_delete = view.findViewById(R.id.deleteBtn); //Your example buttons and views
+BottomDialog bottom_dialog = new BottomDialog.Builder(context)
+                .setTitle("Class Details")
+                .autoDismiss(true)
+                .setCustomView(view)
+                .show();
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
